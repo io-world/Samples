@@ -1,1 +1,10 @@
 ﻿//Log this is a Test
+
+
+Connect "TutorialSUT"
+wait 2
+CaptureScreen (Name: "ZeroState")
+Click "History"
+log "This SUT is" && ReadText(10,180,164,247) & ".. I Think"
+Click "Contacts/grey"
+CaptureScreen (Name: "Contacts2")
