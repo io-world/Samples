@@ -1,0 +1,28 @@
+﻿
+
+on Some_Precondition
+	log "Connect to System Under Test"
+	Connect "TutorialSUT"
+end Some_Precondition
+
+
+on some_other_precondition
+	Log "on Contact Page"
+	click "Contacts"
+	
+end some_other_precondition
+
+
+
+on some_action_by_the_actor
+	Log "Reading Text"
+	log readtext(3,178,389,271)	
+end some_action_by_the_actor
+
+
+
+on some_testable_outcome_is_achieved
+
+	click "History"
+	
+end some_testable_outcome_is_achieved

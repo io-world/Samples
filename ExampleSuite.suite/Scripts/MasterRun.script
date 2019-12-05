@@ -3,3 +3,4 @@
 
 RunWithNewResults "Script01"
 RunWithNewResults "Script02"
+RunWithNewResults "ScriptGherkin.feature"
