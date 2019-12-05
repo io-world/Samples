@@ -1,0 +1,17 @@
+﻿
+
+
+run "SampleAPI"
+
+put JSONValue(API().responseBody) into Employees
+
+put item 5 of Employees into Employee
+
+
+if Employee.id = "47526" then
+	LogSuccess "Correct ID:"&&Employee.id
+else
+	logwarning "Wrong ID:"&&Employee.id
+end if
+
+log "Employee's Salary is" && Employee.employee_salary
