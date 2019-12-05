@@ -1,0 +1,6 @@
+﻿
+
+
+put JSONValue(file ResourcePath("ExternalData.json")) into ExternalData
+
+log (item 2 of ExternalData.elements).parameters
