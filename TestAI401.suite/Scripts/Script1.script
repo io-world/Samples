@@ -1,0 +1,12 @@
+﻿log "This is Script1"
+
+
+log suiteinfo()
+
+Click "Windows Icon"
+Click "File Explorer"
+wait 2
+CaptureScreen (Name: "ExplorerOpened")
+TypeText altKey & F4
+wait 2
+CaptureScreen (Name: "BaseState")
