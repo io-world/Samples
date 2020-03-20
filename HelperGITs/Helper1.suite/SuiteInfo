@@ -1,15 +1,1 @@
-﻿{
-    EPVersionNumber = 1912110008;
-    Schedules =     (
-    );
-    ScriptMetaData =     {
-    };
-    SuiteEncodedTextKey = ".d2-^+C0)4@J7?^D";
-    helpedSuitesInfo =     (
-    );
-    helperSuitesInfo =     (
-                {
-            filePath = "/Users/randyhesse/Documents/GITSCM_Example/HelperGITs/Helper2.suite";
-        }
-    );
-}
+﻿{EPVersionNumber = 2003112342; Schedules = (); ScriptMetaData = {}; SuiteEncodedTextKey = ".d2-^+C0)4@J7?^D"; helpedSuitesInfo = (); helperSuitesInfo = ({filePath = "C:/Users/Administrator/Documents/GITSuites/HelperGITs/Helper2.suite"; }); }
