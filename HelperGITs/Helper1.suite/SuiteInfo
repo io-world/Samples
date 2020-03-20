@@ -8,5 +8,8 @@
     helpedSuitesInfo =     (
     );
     helperSuitesInfo =     (
+                {
+            filePath = "/Users/randyhesse/Documents/GITSCM_Example/HelperGITs/Helper2.suite";
+        }
     );
 }

@@ -1,0 +1,5 @@
+﻿Log "This is Main Script"
+
+run "Script1"
+
+run "Script2"
