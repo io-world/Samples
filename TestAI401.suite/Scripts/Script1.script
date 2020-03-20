@@ -10,3 +10,6 @@ CaptureScreen (Name: "ExplorerOpened")
 TypeText altKey & F4
 wait 2
 CaptureScreen (Name: "BaseState")
+
+
+//We have updated this guy
